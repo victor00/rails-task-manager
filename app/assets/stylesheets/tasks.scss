@@ -60,6 +60,26 @@ a {
     }
 }
 
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+  color: blue;
+   border: 1px solid blue;
+}
+
+#tasks {
+  padding-left: 0;
+  list-style-type: none;
+}
+
 
 $container-max-widths: (
   sm: 540px,

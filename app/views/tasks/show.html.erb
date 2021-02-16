@@ -1,6 +1,11 @@
 <div class="container">
+    <div class="d-flex flex-row justify-content-between align-items-center">
+        <h1><%= @task.title %></h1>
+        <%= link_to edit_task_path(@task), :class => "btn btn-ghost"  do %>
+            <i class="fas fa-pencil-alt"></i> Edit this task
+        <% end %>
+    </div>
     
-    <h1><%= @task.title %></h1>
     <div class="card bg-light d-flex pt-2 justify-content-center">
         <div class="card-body">
             <p><%= @task.details %><p>
